@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>nand2tetris_assembler</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="bin\mult_exp.txt" />
+    <None Remove="assembly\basic.asm" />
+    <None Remove="assembly\mult_exp.asm" />
+    <None Remove="assembly\add_out.asm" />
+    <None Remove="assembly\mult.asm" />
+    <None Remove="assembly\mult_out.asm" />
+    <None Remove="assembly\max_out.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\basic.asm" />
+    <None Include="bin\Debug\mult.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assembly\" />
+  </ItemGroup>
+</Project>

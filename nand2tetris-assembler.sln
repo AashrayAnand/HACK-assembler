@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nand2tetris-assembler", "nand2tetris-assembler\nand2tetris-assembler.csproj", "{9939C08A-E422-4779-864C-A49049621DBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assembler-test", "assembler-test\assembler-test.csproj", "{4FCF1EF1-A029-4AB1-A4DE-89A34353ABA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9939C08A-E422-4779-864C-A49049621DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9939C08A-E422-4779-864C-A49049621DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9939C08A-E422-4779-864C-A49049621DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9939C08A-E422-4779-864C-A49049621DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FCF1EF1-A029-4AB1-A4DE-89A34353ABA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FCF1EF1-A029-4AB1-A4DE-89A34353ABA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FCF1EF1-A029-4AB1-A4DE-89A34353ABA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FCF1EF1-A029-4AB1-A4DE-89A34353ABA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
